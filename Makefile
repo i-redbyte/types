@@ -1,6 +1,6 @@
 # DO NOT REMOVE THOSE LINE
-OUTPUT=./out/
-SOURCE=./src/
+OUTPUT=./helloword/out/
+SOURCE=./helloword/src/
 # DO NOT REMOVE THOSE LINE
 
 # we are calling init, then test_hello_world
