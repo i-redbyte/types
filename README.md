@@ -6,3 +6,4 @@
 
 - [Developing Applications With Objective Caml](http://shamil.free.fr/comp/ocaml/html/index.html)
 - [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/)
+- [Лямбда - функциональное программирование](https://ru-lambda.livejournal.com/)
