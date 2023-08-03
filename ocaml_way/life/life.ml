@@ -1,6 +1,6 @@
 (* Определение размера сетки *)
-let width = 12
-let height = 12
+let width = 10
+let height = 10
 
 (* Инициализация сетки случайными значениями *)
 let grid = Array.make_matrix width height false
@@ -52,7 +52,11 @@ let rec run_game () =
   randomize_grid 0 0;
   print_grid ();
   let new_grid = update_grid () in
-  Array.blit new_grid 0 grid 0 (width * height);
+  for y = 0 to height - 1 do
+    for x = 0 to width - 1 do
+      grid.(x).(y) <- new_grid.(x).(y)
+    done
+  done;
   print_grid ();
   run_game ()
 
